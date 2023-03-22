@@ -44,6 +44,8 @@ So far we have seen how both *args and **kwargs can be combined with standard ar
 4. **kwargs
 
 # Namespaces and Scope
+
+## Namespaces
 A namespace is a collection of names and the objects that they reference. Python will host a dictionary where the keys are the names that have been defined and the mapped values are the objects that they reference. 
 
 Four distinct types of namespaces that Python generates:
@@ -55,5 +57,18 @@ Four distinct types of namespaces that Python generates:
 
 <img src="images/namespaces.JPG?raw=true"  width="600" height="400"/>
 
+I’ve covered:
+
+* Names as identifiers for objects in Python.
+* What namespaces are.
+* The built-in namespace and how to access it using __builtins__.
+* The global namespace and how to access it using globals().
+* The local namespace and how to access it using locals().
+* The enclosing namespace - a special type of local namespace that occurs when working with nested functions.
+
+## Scope 
+### Introduction to Scope 
+
+<img src="images/scope.jpg?raw=true"  width="600" height="400"/>
 
 
