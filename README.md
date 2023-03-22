@@ -43,6 +43,16 @@ So far we have seen how both *args and **kwargs can be combined with standard ar
 3. Standard keyword arguments
 4. **kwargs
 
+# Namespaces and Scope
+A namespace is a collection of names and the objects that they reference. Python will host a dictionary where the keys are the names that have been defined and the mapped values are the objects that they reference. 
+
+Four distinct types of namespaces that Python generates:
+
+1. Built-In
+2. Global
+3. Local
+4. Enclosing
+
 
 
 
