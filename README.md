@@ -8,7 +8,7 @@ In Learn Intermediate Python 3, I learned how to leverage Python’s unique feat
 * Resource Management
 * Unit Testing
 
-# Functions Deep Dive
+# Introduction
 ## Python Gotcha: Mutable Default Arguments 
 Learn about a common Python gotcha when using mutable default arguments in functions! 
 
