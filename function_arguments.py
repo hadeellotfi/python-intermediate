@@ -110,3 +110,52 @@ def print_animals(animal1, animal2, *args, animal4, **kwargs):
   print(kwargs)
 
 print_animals('Snake', 'Fish', 'Guinea Pig', 'Owl', animal4='Cat', animal5='Dog')  
+
+# Function Call Unpacking & Beyond 
+"""
+Hopefully, by now, we have started to see the power of using the * and ** operators
+in our function definitions. However, Python doesnt stop there! Not only can we use
+the operators when defining parameters, but we can also use them in function calls.
+
+"""
+
+# Let’s imagine we want to sum a few numbers together: 
+def sum(num1, num2, num3):
+  print(num1 + num2 + num3)
+
+"""
+Right now, our function forces us to pass in an individual argument
+ for num1, num2, and num3. This isnt a big issue if we have separate
+   variables or know our numbers in advance. However, what if we wanted
+     to use a list like [3, 6, 9] instead? Well, that is where the
+       unpacking operator comes to the rescue.
+"""
+
+# Let’s observe: 
+my_num_list = [3, 6, 9]
+ 
+def sum(num1, num2, num3):
+  print(num1 + num2 + num3)
+ 
+sum(*my_num_list)
+
+# another example with *** 
+
+numbers  = {'num1': 3, 'num2': 6, 'num3': 9}
+ 
+def sum(num1, num2, num3):
+  print(num1 + num2 + num3)
+ 
+sum(**numbers)
+
+# in built-in functions:
+start_and_stop = [3, 6]
+ 
+range_values = range(*start_and_stop)
+print(list(range_values))
+
+# Merging iterables
+my_tuple = (3, 6, 9)
+merged_tuple = (0, *my_tuple, 12)
+print(merged_tuple)
+
