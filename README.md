@@ -53,6 +53,7 @@ Four distinct types of namespaces that Python generates:
 3. Local
 4. Enclosing
 
+<img src="images/namespaces.JPG?raw=true"  width="100%" height="1200"/>
 
 
 
