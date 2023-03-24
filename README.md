@@ -70,5 +70,12 @@ I’ve covered:
 ### Introduction to Scope 
 
 <img src="images/scope.jpg?raw=true"  width="600" height="400"/>
+I’ve covered:
 
+* The concept of scope and the LEGB rule.
+* What the local scope is.
+* What a nested function is and the enclosing/nonlocal scope.
+* What the global scope is.
+* How to modify behavior using the global statement.
+* How to modify behavior using the nonlocal statement.
 
