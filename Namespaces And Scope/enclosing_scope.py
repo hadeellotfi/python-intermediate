@@ -50,3 +50,51 @@ outer_function()
 # Would output: 
 # Enclosing Value
 # Nested Value
+
+
+# Modifying Scope Behavior: global Statement 
+# Sometimes, we want to modify a global name from within a local scope. How do we go about doing this? 
+
+global_var = 10
+ 
+def some_function():
+  global_var = 20
+ 
+some_function()
+ 
+print(global_var)
+
+
+# using global 
+global_var = 10
+ 
+def some_function():
+  global global_var
+  global_var = 20
+ 
+some_function()
+ 
+print(global_var)  
+
+""" 
+In addition, the global statement can be used even if the name has not been
+ defined in the global namespace. Using the global statement would create the
+  new variable in the global namespace.
+
+"""
+
+def some_function():
+  global x
+  x = 30
+ 
+some_function()
+print(x)
+
+""" 
+In summary, the global keyword is used within a local scope to associate a variable
+ name with a name in the global namespace. This association is only valid within the
+  local scope when global is used.
+  
+"""
+
+
