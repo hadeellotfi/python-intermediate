@@ -79,3 +79,6 @@ I’ve covered:
 * How to modify behavior using the global statement.
 * How to modify behavior using the nonlocal statement.
 
+# Functions Deep Dive
+## Lambda Functions 
+
